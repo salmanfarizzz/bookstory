@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/baseline_home_24"
+        app:iconTint="@color/white"
+        />
+
+    <item
+        android:id="@+id/location"
+        android:title="@string/location"
+        android:icon="@drawable/baseline_location_on_24"
+        app:iconTint="@color/white"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/accounts"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        app:iconTint="@color/white"
+        />
+
+</menu>
